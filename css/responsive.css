@@ -2,3 +2,55 @@ img
 {
 	max-width: 100%;
 }
+
+/* for tablets */
+@media only screen and (min-width: 600px)
+{
+	
+
+}
+
+/* For desktop: */
+@media only screen and (min-width: 960px) 
+{
+	.info-image
+	{
+		width: 50%;
+		height: 100vh;
+
+	}
+	.info-text
+	{
+		width: 50%;
+		height: 100vh;
+		padding : 106px 50px 92px 100px;
+	}
+
+	.brigther-info-image
+	{
+		order : 1;
+		
+	}
+	.brigther-info-text
+	{
+		
+		order : 0;
+		
+	}
+
+	.banner-row
+	{
+		margin: 0;
+	}
+
+	.professional-tech-image
+	{
+		order : 1;
+	}
+
+	.professional-tech-text
+	{
+		order: 0;
+	}
+
+}
