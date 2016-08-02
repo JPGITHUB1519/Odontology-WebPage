@@ -17,6 +17,11 @@
     box-sizing: border-box;
 }
 
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
 img
 {
 	max-width: 100%;
@@ -71,6 +76,12 @@ img
 	transform: translate(-50%, -50%);
 }
 
+.center-forced
+{
+	display: block;
+	margin : 0 auto;
+}
+
 .text-center
 {
 	text-align: center;
@@ -85,6 +96,19 @@ img
 {
 	position: absolute;
 }
+
+.background-cover
+{
+	background-size : cover !important;
+}
+
+/* only clasess*/
+
+.text-center-only-mobile
+{
+	text-align: center;
+}
+
 
 /*
 .big-icon
@@ -215,6 +239,42 @@ img
 .women-info-text
 {
 	order: 1;
+}
+
+.welcome
+{
+	background-color : #ED5709;
+	padding: 1em;
+}
+
+.white-big-title
+{
+	font-size: 3em;
+	color: white;
+}
+
+.text-color-white
+{
+	color : white;
+}
+
+.event-element
+{
+	width : 100%;
+}
+
+.bg-beautiful-pink
+{
+	background-color : #ffab91;
+}
+
+.event-element-image
+{
+	width: 100%;
+	min-height: 300px;
+	background : url("../images/women_smile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 

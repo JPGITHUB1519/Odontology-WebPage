@@ -6,6 +6,10 @@ img
 /* for tablets */
 @media only screen and (min-width: 600px)
 {
+	.text-center-only-mobile
+	{
+		text-align: initial;
+	}
 	
 
 }
@@ -33,9 +37,7 @@ img
 	}
 	.brigther-info-text
 	{
-		
-		order : 0;
-		
+		order : 0;	
 	}
 
 	.banner-row
@@ -51,6 +53,11 @@ img
 	.professional-tech-text
 	{
 		order: 0;
+	}
+
+	.event-element
+	{
+		width : 25%;
 	}
 
 }
